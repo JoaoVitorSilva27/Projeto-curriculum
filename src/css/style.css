@@ -18,6 +18,7 @@ body{
     height: 210px;
     width: 210px;
     padding: 20px;
+    border-radius: 225px;
 }
 
 #contato h1{
