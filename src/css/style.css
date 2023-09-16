@@ -1,20 +1,29 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    background: linear-gradient( 0,#991e1e ,#000000 );
+}
+
+#contani {
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient( 0,#991e1e ,#000000 );
+    width: 1296px;
+    height: 815px;
 }
 
 #corpo {
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 }
 
 #ladoE {
-    width: 250px;
+    width: 20%;
     height: 750px;
     background-color: rgb(31, 31, 43);
-
 }
 
-#fotocont{
+#fotocont {
     padding: 7.5px;
 }
 
@@ -23,7 +32,7 @@ body {
     width: 210px;
     padding: 10px;
     border-radius: 120px;
-    border: firebrick 1px solid;
+    border: #b22222 1px solid;
 
 }
 
@@ -47,8 +56,8 @@ body {
 }
 
 #ladoD {
-    background-color: aqua;
-    width: 750px;
+    background-color: white;
+    width: 65%;
     height: 750px;
 
 }
