@@ -1,0 +1,62 @@
+#ladoE {
+    width: 19.5%;
+    height: 750px;
+    background-color: rgb(31, 31, 43);
+}
+
+#fotocont {
+    padding: 7.5px;
+}
+
+#txtnome{
+    font-size: 20px;
+    color: firebrick;
+    text-align: center;
+}
+
+#ftperf {
+    height: 210px;
+    width: 210px;
+    padding: 10px;
+    border-radius: 120px;
+    border: #b22222 1px solid;
+
+}
+
+#contato h1 {
+    font-size: 20px;
+    color: firebrick;
+}
+
+#contato {
+    font-size: 16px;
+    padding-left: 10px;
+    color: rgb(194, 194, 194);
+}
+
+#contato a {
+    color: firebrick;
+}
+
+#contatotxt {
+    padding: 4px;
+}
+
+#iconcont{
+    padding-right: 5px;
+}
+
+#espaço{
+    padding: 6px;
+}
+
+#infosB{
+    padding-top: 4px;
+    padding-left:10px ;
+    color:rgb(194, 194, 194);
+}
+
+#infosB h1{
+    font-size: 20px;
+    color: firebrick;
+}
