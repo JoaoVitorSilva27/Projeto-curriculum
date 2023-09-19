@@ -1,6 +1,6 @@
 #ladoE {
     width: 19.5%;
-    height: 750px;
+    height: 900px;
     background-color: rgb(31, 31, 43);
 }
 
@@ -59,4 +59,31 @@
 #infosB h1{
     font-size: 20px;
     color: firebrick;
+}
+
+#skills{
+    padding-top: 10px;
+    padding-left:10px ;
+    color:rgb(194, 194, 194);
+}
+
+#skills h1{
+    font-size: 20px;
+    color: firebrick;
+}
+
+#estrelas{
+    padding-bottom: 14px;
+}
+
+#espaçopy{
+    padding: 2px;
+}
+
+#espaçopy2{
+    padding-bottom: 10px;
+}
+
+#txtpy{
+    font-size: 14px;
 }
