@@ -1,14 +1,15 @@
 #ladoE {
-    width: 19.5%;
+    width: 20%;
     height: 900px;
     background-color: rgb(31, 31, 43);
 }
 
 #fotocont {
-    padding: 7.5px;
+    display: flex;
+    justify-content: center;
 }
 
-#txtnome{
+#txtnome {
     font-size: 20px;
     color: firebrick;
     text-align: center;
@@ -19,8 +20,7 @@
     width: 210px;
     padding: 10px;
     border-radius: 120px;
-    border: #b22222 1px solid;
-
+    border: firebrick 1px solid;
 }
 
 #contato h1 {
@@ -38,52 +38,56 @@
     color: firebrick;
 }
 
+#contato a:hover{
+    color: rgb(221, 49, 49);
+}
+
 #contatotxt {
     padding: 4px;
 }
 
-#iconcont{
+#iconcont {
     padding-right: 5px;
 }
 
-#espaço{
+#espaço {
     padding: 6px;
 }
 
-#infosB{
+#infosB {
     padding-top: 4px;
-    padding-left:10px ;
-    color:rgb(194, 194, 194);
+    padding-left: 10px;
+    color: rgb(194, 194, 194);
 }
 
-#infosB h1{
+#infosB h1 {
     font-size: 20px;
     color: firebrick;
 }
 
-#skills{
+#skills {
     padding-top: 10px;
-    padding-left:10px ;
-    color:rgb(194, 194, 194);
+    padding-left: 10px;
+    color: rgb(194, 194, 194);
 }
 
-#skills h1{
+#skills h1 {
     font-size: 20px;
     color: firebrick;
 }
 
-#estrelas{
+#estrelas {
     padding-bottom: 14px;
 }
 
-#espaçopy{
+#espaçopy {
     padding: 2px;
 }
 
-#espaçopy2{
+#espaçopy2 {
     padding-bottom: 10px;
 }
 
-#txtpy{
+#txtpy {
     font-size: 14px;
 }

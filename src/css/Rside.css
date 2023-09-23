@@ -1,5 +1,78 @@
 #ladoD {
     background-color: white;
-    width: 65%;
+    width: 62.5%;
     height: 900px;
+
+}
+
+
+#box1 {
+    border-radius: 10px;
+    background-color: rgb(255, 211, 211);
+    
+    height: 30%;
+    width: 95%;
+
+    margin-top: 2.5%;
+    margin: 2%;
+}
+
+#apresentacao h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#apresentacaotxt{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes{
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid black;
+    height: 30%;
+    width: 100%;
+}
+
+#box2{
+    border-radius: 10px;
+    background-color: rgb(255, 211, 211);
+    
+    height: 85%;
+    width: 95%;
+
+
+}
+
+#boxes2 {
+    display: flex;
+    justify-content: space-around;
+
+    height: 33%;
+    width: 100%;
+}
+
+#box3{
+    text-align: center;
+
+    border: grey 1px solid;
+    border-radius: 90px;
+    height: 90%;
+    width: 47.5%;
+
+    background-color: lightcyan;
+}
+
+#box4{
+    transform: rotate(4deg);
+    text-align: center;
+    
+    height: 90%;
+    width: 45%;
+
+    background-color: rgb(255, 232, 101);
 }
