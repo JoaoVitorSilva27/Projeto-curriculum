@@ -23,6 +23,14 @@
     font-size: 25px;
 }
 
+#apresentacao a{
+    color: dodgerblue;
+}
+
+#apresentacao a:hover{
+    color: rgb(0, 98, 196);
+}
+
 #apresentacaotxt {
     animation: opci 3s;
     padding: 10px;
@@ -87,10 +95,21 @@
 #box3 {
     background-color: rgb(255, 232, 101);
 
-    height: 100%;
-    width: 34%;
+    height: 175px;
+    width: 225px;
 
+    margin-top: 50px;
     transform: rotate(4deg);
+}
+
+#box3 h1{
+    font-family: 'Dancing Script', cursive; 
+    padding: 3px;
+    text-align: center;
+}
+
+#agradtxt{
+    text-align: center;
 }
 
 #box3:hover {
