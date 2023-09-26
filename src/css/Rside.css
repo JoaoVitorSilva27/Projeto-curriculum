@@ -104,7 +104,8 @@
 
 #box3 h1{
     font-family: 'Dancing Script', cursive; 
-    padding: 3px;
+    padding: 1px;
+    font-size: x-large;
     text-align: center;
 }
 

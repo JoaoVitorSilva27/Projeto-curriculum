@@ -51,9 +51,12 @@
         display: block;
 
         margin-left: 25%;
+        margin-right: 25%;
+        
     }
     #boxes{
         display: block;
+        
     }
 }
 
