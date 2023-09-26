@@ -1,14 +1,12 @@
 #ladoD {
     background-color: rgb(31, 31, 43);
     width: 62.5%;
-    height: 600px;
-
+    height: 620px;
 }
-
 
 #box1 {
     border-radius: 10px;
-    background-color: rgb(255, 211, 211);
+    background-color: white;
 
     height: 50%;
     width: 95%;
@@ -18,15 +16,27 @@
 }
 
 #apresentacao h1 {
+    animation: opci 2.5s;
+    color: firebrick;
     padding-top: 10px;
     text-align: center;
     font-size: 25px;
 }
 
 #apresentacaotxt {
-    font-family: Arial, Helvetica, sans-serif;
+    animation: opci 3s;
     padding: 10px;
     text-align: center;
+}
+
+@keyframes opci{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
 
 #boxes {
@@ -40,7 +50,7 @@
 #box2 {
     text-align: center;
     border-radius: 10px;
-    background-color: rgb(255, 211, 211);
+    background-color: white;
 
     height: 100%;
     width: 55%;
@@ -48,12 +58,14 @@
 }
 
 #box2 h1 {
+    animation: opci 4s;
     padding: 10px;
     font-size: 20px;
     color: firebrick;
 }
 
 #skills {
+    animation: opci 4.5s;
     column-count: 2;
     column-rule: 1px solid black;
 
@@ -85,4 +97,15 @@
     width: 34%;
 
     transform: rotate(4deg);
+}
+
+#box3:hover{
+    animation: ptmove 2s forwards;
+}
+
+@keyframes ptmove{
+   100%{
+    transform: rotate(-0.5deg);
+    transform: scale(125%)
+   } ;
 }

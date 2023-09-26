@@ -1,6 +1,6 @@
 #ladoE {
     width: 20%;
-    height: 600px;
+    height: 620px;
     background-color: rgb(31, 31, 43);
 }
 
@@ -16,11 +16,23 @@
 }
 
 #ftperf {
+    animation: ftran 3s;
     height: 210px;
     width: 210px;
     padding: 10px;
     border-radius: 120px;
     border: firebrick 1px solid;
+}
+
+@keyframes ftran{
+    0%{
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
 
 #contato h1 {

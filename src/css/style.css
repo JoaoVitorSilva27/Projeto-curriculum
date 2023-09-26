@@ -1,12 +1,14 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background: linear-gradient( 0,#8a1818 ,#000000 );
+    /* background: linear-gradient( 0,#8a1818 ,#000000 ); */
+    background: linear-gradient(0, #00093b , #000000);
 }
 
 #contani {
     position: absolute;
     z-index: -1;
-    background: linear-gradient( 0,#8a1818 ,#000000 );
+    /* background: linear-gradient( 0,#8a1818 ,#000000 ); */
+    background: linear-gradient(0, #00093b , #000000);
     width: 1296px;
     height: 650px;
 }
@@ -14,6 +16,6 @@ body {
 #corpo {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
