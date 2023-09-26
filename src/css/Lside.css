@@ -24,12 +24,13 @@
     border: firebrick 1px solid;
 }
 
-@keyframes ftran{
-    0%{
+@keyframes ftran {
+    0% {
         transform: translateX(-150px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
         opacity: 1;
     }
@@ -50,7 +51,7 @@
     color: firebrick;
 }
 
-#contato a:hover{
+#contato a:hover {
     color: rgb(221, 49, 49);
 }
 
@@ -76,4 +77,3 @@
     font-size: 20px;
     color: firebrick;
 }
-
