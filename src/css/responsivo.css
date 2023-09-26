@@ -1,0 +1,57 @@
+@media (max-width: 1120px){
+    #contani {
+       position: absolute;
+        z-index: -1;
+        /* background: linear-gradient( 0,#8a1818 ,#000000 ); */
+        background: linear-gradient(0, #00093b , #000000);
+        width: 100%;
+        height: 1650px;
+    }
+    
+    #corpo{
+        display: contents;
+        justify-content: center;
+        text-align: center;
+        max-width: 430px;
+    }
+
+    #ladoE{
+        display: block;
+        
+        width: 100%;
+        height: 610px;
+
+        justify-content: center;
+    }
+
+    #ladoD{
+        display: block;
+        justify-content: center;
+        width: 100%;
+        height: 1025px;
+        padding-top: 1px;
+    }
+
+    #box1{
+        
+        width: 95%;
+        height: 450px;
+    }
+
+    #box2{
+        height: 300px;
+        width: 95%;
+        display: block;
+        margin: 2%;
+        
+    }
+
+    #box3{
+        display: block;
+        justify-content: center;
+    
+    }
+    #boxes{
+        display: block;
+    }
+}
